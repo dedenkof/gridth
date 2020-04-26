@@ -14,12 +14,34 @@
   display: grid;
   grid-template-columns: minmax(70px, 250px) repeat(3, auto) minmax(70px, 250px);
   grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
 }
 
-.grid__item{
+.grid__item {
   background-color: green;
   color: #fff;
   padding: 20px;
   text-align: center;
   border: 1px solid #000;
+}
+
+.header {
+  grid-column: 1 /-1;
+}
+
+.sidebar-left {
+  grid-row: span 3;
+}
+
+.content {
+  grid-column: 2 / 5;
+  grid-row: span 3;
+}
+
+.sidebar-right {
+  grid-row: span 3;
+}
+
+.footer{
+  grid-column: 1 / -1;
 }

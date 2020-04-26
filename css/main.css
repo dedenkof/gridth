@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(70px, 250px) repeat(3, auto) minmax(70px, 250px);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.grid__item{
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000;
+}

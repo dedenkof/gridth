@@ -1,15 +1,15 @@
-.gallery {
+.gallery-year {
   background: url("../../img/layer.jpg") repeat;
   padding-bottom: 10px;
   padding-top: 1px;
 }
 
-.gallery__date {
+.gallery-year__date {
   text-align: center;
   grid-column: 1 / -1;
 }
 
-.gallery__date a {
+.gallery-year__date a {
   font-size: 17px;
   color: rgb(137, 137, 137);
   line-height: 1.2;
@@ -23,13 +23,13 @@
   margin: 30px auto 25px;
 }
 
-.gallery__block {
+.gallery-year__block {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(225px, auto));
   grid-gap: 20px;
 }
 
-.gallery__block a {
+.gallery-year__block a {
   border-radius: 5px;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, .22);
   text-decoration: none;
@@ -37,7 +37,7 @@
   display: block;
 }
 
-.gallery__block a img {
+.gallery-year__block a img {
   display: block;
   width: 100%;
   border-radius: 5px;
@@ -45,21 +45,21 @@
   box-sizing: border-box;
 }
 
-.gallery__loading {
+.gallery-year__loading {
   text-align: center;
   padding-top: 35px;
   margin: 30px 0 15px;
   position: relative;
 }
 
-.gallery__loading a {
+.gallery-year__loading a {
   font-size: 15px;
   color: rgb(177, 177, 177);
   line-height: 1.2;
   text-decoration: none;
 }
 
-.gallery__loading a::before {
+.gallery-year__loading a::before {
   content: '';
   background-color: #9b9b9b;
   width: 20px;
@@ -71,7 +71,7 @@
   transform: translateX(-50%);
 }
 
-.gallery__loading a::after {
+.gallery-year__loading a::after {
   content: '';
   background-color: #c1c1c1;
   width: 20px;
@@ -83,7 +83,7 @@
   transform: translateX(-50%);
 }
 
-.gallery__loading span::before {
+.gallery-year__loading span::before {
   content: '';
   background-color: #616161;
   width: 20px;

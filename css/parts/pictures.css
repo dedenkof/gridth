@@ -39,7 +39,7 @@
 
 @media (max-width: 990px) {
 
-  .pictures {
+  .gallery {
     grid-template-areas:
       'img-1 img-2 img-3'
       'img-1 img-5 img-5'
@@ -50,7 +50,7 @@
 
 @media (max-width: 680px) {
 
-  .pictures {
+  .gallery {
     grid-template-areas:
       'img-2 img-1'
       'img-3 img-1'
@@ -62,7 +62,7 @@
 
 @media (max-width: 480px) {
 
-  .pictures {
+  .gallery {
     grid-template-areas:
       'img-2 img-1'
       'img-3 img-1'
